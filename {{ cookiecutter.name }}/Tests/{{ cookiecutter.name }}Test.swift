@@ -1,14 +1,15 @@
 //
-//  FRAMEWORKNAMESpec.swift
-//  FRAMEWORKNAME
+//  {{ cookiecutter.name }}Spec.swift
+//  {{ cookiecutter.name }}
 //
-//  Created by FRAMEWORKFULLNAME on 04/10/16.
-//  Copyright © 2017 FRAMEWORKGITHUBNAME. All rights reserved.
+//  Created by {{ cookiecutter.full_name }} on 04/10/16.
+//  Copyright © 2017 {{ cookiecutter.github_name }}. All rights reserved.
 //
 
-@testable import FRAMEWORKNAME
+@testable import {{ cookiecutter.name }}
 
-class FRAMEWORKNAMESpec: XCTestCase {
+class {{ cookiecutter.name }}Tests: XCTestCase {
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,4 +31,5 @@ class FRAMEWORKNAMESpec: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+
 }
