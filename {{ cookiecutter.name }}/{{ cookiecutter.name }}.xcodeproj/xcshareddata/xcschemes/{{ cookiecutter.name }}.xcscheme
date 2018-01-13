@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB201DA389CD00C63030"
                BuildableName = "{{ cookiecutter.name }}.framework"
-               BlueprintName = "{{ cookiecutter.name }}-iOS"
+               BlueprintName = "{{ cookiecutter.name }}"
                ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB601DA38ADB00C63030"
-               BuildableName = "{{ cookiecutter.name }}Tests-iOS.xctest"
-               BlueprintName = "{{ cookiecutter.name }}Tests-iOS"
+               BuildableName = "{{ cookiecutter.name }}Tests.xctest"
+               BlueprintName = "{{ cookiecutter.name }}Tests"
                ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB201DA389CD00C63030"
             BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-iOS"
+            BlueprintName = "{{ cookiecutter.name }}"
             ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -68,7 +68,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB201DA389CD00C63030"
             BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-iOS"
+            BlueprintName = "{{ cookiecutter.name }}"
             ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,7 +86,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB201DA389CD00C63030"
             BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-iOS"
+            BlueprintName = "{{ cookiecutter.name }}"
             ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

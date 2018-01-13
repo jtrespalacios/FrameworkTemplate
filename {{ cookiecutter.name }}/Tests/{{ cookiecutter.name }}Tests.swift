@@ -6,6 +6,7 @@
 //  Copyright © 2017 {{ cookiecutter.github_name }}. All rights reserved.
 //
 
+import XCTest
 @testable import {{ cookiecutter.name }}
 
 class {{ cookiecutter.name }}Tests: XCTestCase {
