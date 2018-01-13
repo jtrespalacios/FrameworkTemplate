@@ -7,9 +7,6 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
-[![Travis](https://img.shields.io/travis/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/branches)
-[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
-
 {{ cookiecutter.summary }}
 
 - [Requirements](#requirements)
