@@ -1,10 +1,10 @@
 {
     "name" : "Framework",
     "summary" : "cookiecutter bootstrap template for swift framework",
-    "bundle_identifier" : "com.example",
-    "full_name": "example",
-    "email": "example@email.com",
-    "github_name" : "example",
-    "homepage" : "http://example.com",
-    "twitter": "example"
+    "bundle_identifier" : "co.j3p",
+    "full_name": "Jeff Trespalacios",
+    "email": "jeff.trespalacios@gmail.com",
+    "github_name" : "jtrespalacios",
+    "homepage" : "http://j3p.co",
+    "twitter": "j_3_p"
 }
