@@ -24,7 +24,7 @@ A template for new Framework project.
    macOS).
 2. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-3. Run `cookiecutter https://github.com/JetpackSwift/FrameworkTemplate`
+3. Run `cookiecutter https://github.com/jtrespalacios/FrameworkTemplate`
 
 [carthage]: https://github.com/Carthage/Carthage
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
