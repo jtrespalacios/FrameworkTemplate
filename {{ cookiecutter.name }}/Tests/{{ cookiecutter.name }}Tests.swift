@@ -1,5 +1,5 @@
 //
-//  {{ cookiecutter.name }}Spec.swift
+//  {{ cookiecutter.name }}Tests.swift
 //  {{ cookiecutter.name }}
 //
 //  Created by {{ cookiecutter.full_name }} on 04/10/16.

@@ -1,5 +1,5 @@
 //
-//  FRAMEWORKNAMESpec.swift
+//  FRAMEWORKNAMETests.swift
 //  FRAMEWORKNAME
 //
 //  Created by FRAMEWORKFULLNAME on 04/10/16.
