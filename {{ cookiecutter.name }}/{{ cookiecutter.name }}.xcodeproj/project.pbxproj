@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3549BB501DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */; };
 		3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */; };
 		3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */; };
 		3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift */; };
 		3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift */; };
 		3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift */; };
-		359649031FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649041FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649051FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649061FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
+		359649031FB18CC000FC7ADC /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* Version.swift */; };
+		359649041FB18CC000FC7ADC /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* Version.swift */; };
+		359649051FB18CC000FC7ADC /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* Version.swift */; };
+		359649061FB18CC000FC7ADC /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* Version.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +78,6 @@
 
 /* Begin PBXFileReference section */
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = {{ cookiecutter.name }}.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +89,7 @@
 		3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}Tests.swift; sourceTree = "<group>"; };
-		359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}.swift; sourceTree = "<group>"; };
+		359649021FB18CBF00FC7ADC /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,9 +175,8 @@
 		3549BB161DA3890B00C63030 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				359649011FB18CBF00FC7ADC /* Core */,
 				3549BB541DA38A4000C63030 /* Supporting Files */,
-				359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */,
+				359649021FB18CBF00FC7ADC /* Version.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -199,7 +193,6 @@
 		3549BB541DA38A4000C63030 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */,
 				3549BB171DA3890B00C63030 /* Info.plist */,
 				3549BB551DA38A5E00C63030 /* Info-tvOS.plist */,
 			);
@@ -222,14 +215,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		359649011FB18CBF00FC7ADC /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -237,7 +222,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB501DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +229,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +236,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +243,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-iOS" */;
 			buildPhases = (
+				963597A321C7231500B3E5DC /* Run SwiftFormat */,
 				3549BB1C1DA389CD00C63030 /* Sources */,
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
 				3549BB1E1DA389CD00C63030 /* Headers */,
@@ -290,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-watchOS" */;
 			buildPhases = (
+				963597A921C723EC00B3E5DC /* Run SwiftFormat */,
 				3549BB291DA389DB00C63030 /* Sources */,
 				3549BB2A1DA389DB00C63030 /* Frameworks */,
 				3549BB2B1DA389DB00C63030 /* Headers */,
@@ -308,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-macOS" */;
 			buildPhases = (
+				963597A521C7236300B3E5DC /* Run SwiftFormat */,
 				3549BB361DA389E800C63030 /* Sources */,
 				3549BB371DA389E800C63030 /* Frameworks */,
 				3549BB381DA389E800C63030 /* Headers */,
@@ -326,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-tvOS" */;
 			buildPhases = (
+				963597A721C723C200B3E5DC /* Run SwiftFormat */,
 				3549BB431DA389F300C63030 /* Sources */,
 				3549BB441DA389F300C63030 /* Frameworks */,
 				3549BB451DA389F300C63030 /* Headers */,
@@ -344,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-iOS" */;
 			buildPhases = (
+				963597A421C7235100B3E5DC /* Run SwiftFormat */,
 				3549BB5D1DA38ADB00C63030 /* Sources */,
 				3549BB5E1DA38ADB00C63030 /* Frameworks */,
 				3549BB5F1DA38ADB00C63030 /* Resources */,
@@ -363,6 +349,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-tvOS" */;
 			buildPhases = (
+				963597A821C723D500B3E5DC /* Run SwiftFormat */,
 				3549BB6C1DA38AEF00C63030 /* Sources */,
 				3549BB6D1DA38AEF00C63030 /* Frameworks */,
 				3549BB6E1DA38AEF00C63030 /* Resources */,
@@ -382,6 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-macOS" */;
 			buildPhases = (
+				963597A621C723AF00B3E5DC /* Run SwiftFormat */,
 				3549BB7B1DA38B0000C63030 /* Sources */,
 				3549BB7C1DA38B0000C63030 /* Frameworks */,
 				3549BB7D1DA38B0000C63030 /* Resources */,
@@ -404,7 +392,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = {{ cookiecutter.github_name }};
 				TargetAttributes = {
 					3549BB201DA389CD00C63030 = {
@@ -519,12 +507,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		963597A321C7231500B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A421C7235100B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A521C7236300B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A621C723AF00B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A721C723C200B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A821C723D500B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		963597A921C723EC00B3E5DC /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3549BB1C1DA389CD00C63030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359649031FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
+				359649031FB18CC000FC7ADC /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359649061FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
+				359649061FB18CC000FC7ADC /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +657,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359649041FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
+				359649041FB18CC000FC7ADC /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359649051FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
+				359649051FB18CC000FC7ADC /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

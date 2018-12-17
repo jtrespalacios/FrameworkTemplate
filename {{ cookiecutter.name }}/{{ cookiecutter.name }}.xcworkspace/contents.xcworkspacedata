@@ -20,9 +20,6 @@
       location = "group:Cartfile.resolved">
    </FileRef>
    <FileRef
-      location = "group:{{ cookiecutter.name }}.podspec">
-   </FileRef>
-   <FileRef
       location = "group:Package.swift">
    </FileRef>
    <FileRef

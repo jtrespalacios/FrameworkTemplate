@@ -1,11 +1,7 @@
 ## {{ cookiecutter.name }}
 
-[![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
-[![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master/LICENSE)
-
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
 {{ cookiecutter.summary }}
 
@@ -21,30 +17,6 @@
 
 ## Installation
 
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate {{ cookiecutter.name }} into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
-
-pod '{{ cookiecutter.name }}', '~> 0.0.1'
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
 ### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
@@ -59,7 +31,7 @@ $ brew install carthage
 To integrate {{ cookiecutter.name }} into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "{{ cookiecutter.name }}/{{ cookiecutter.name }}" ~> 0.0.1
+github "{{ cookiecutter.name }}/{{ cookiecutter.name }}" ~> 0.1.0
 ```
 ### Swift Package Manager
 
@@ -71,7 +43,7 @@ import PackageDescription
 let package = Package(
     name: "Hello{{ cookiecutter.name }}",
     dependencies: [
-        .Package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", "0.0.1")
+        .Package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", "0.1.0")
     ]
 )
 ```
